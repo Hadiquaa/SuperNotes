@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Sample Note",
+    "content": "This is saved to a file!",
+    "createdAt": "2025-07-13T01:00:00.000Z",
+    "updatedAt": "2025-07-13T01:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Second Note",
+    "content": "MY second note",
+    "createdAt": "2025-07-14T02:03:21.972Z",
+    "updatedAt": "2025-07-14T02:03:21.972Z"
+  }
+]
