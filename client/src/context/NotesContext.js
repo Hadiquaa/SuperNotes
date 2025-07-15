@@ -3,7 +3,7 @@ import {createContext, useContext, useState} from 'react';
 const NotesContext = createContext();
 export const useNotes = () => useContext(NotesContext);
 
-const BASE_URL = "http://localhost:8005/api/notes";
+const BASE_URL = process.env.REACT_APP_BACKEND_URL ||"http://localhost:8005/api/notes";
 
 export const NotesProvider = ({children}) => {
     const [notes,setNotes] = useState([]);
