@@ -1,16 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Sample Note",
-    "content": "This is saved to a file!",
+    "title": "Sample Note 1",
+    "content": "This is saved to a file! How are you",
     "createdAt": "2025-07-13T01:00:00.000Z",
-    "updatedAt": "2025-07-13T01:00:00.000Z"
+    "updatedAt": "2025-07-15T01:57:18.242Z"
   },
   {
     "id": 2,
     "title": "Second Note",
-    "content": "MY second note",
+    "content": "MY second note Very Excited!",
     "createdAt": "2025-07-14T02:03:21.972Z",
-    "updatedAt": "2025-07-14T02:03:21.972Z"
+    "updatedAt": "2025-07-15T01:41:53.397Z"
+  },
+  {
+    "id": 3,
+    "title": "Untitled Note",
+    "content": "Start writing...",
+    "createdAt": "2025-07-15T02:10:51.500Z",
+    "updatedAt": "2025-07-15T02:10:51.500Z"
+  },
+  {
+    "id": 4,
+    "title": "Third Note",
+    "content": "This is my third note\n\n",
+    "createdAt": "2025-07-15T02:11:29.099Z",
+    "updatedAt": "2025-07-15T02:11:57.583Z"
+  },
+  {
+    "id": 5,
+    "title": "Mufasa's Notes",
+    "content": "I want treats!!",
+    "createdAt": "2025-07-15T02:36:45.845Z",
+    "updatedAt": "2025-07-15T02:37:13.516Z"
   }
 ]

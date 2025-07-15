@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import  { Toaster } from "react-hot-toast";
 import './App.css';
+import { useEffect } from "react";
+import { useNotes } from "./context/NotesContext";
+import Dashboard from './pages/Dashboard';
+import Navbar from "./components/Navbar";
 
 function App() {
+  const { fetchNotes } = useNotes();
+
+  useEffect(() => {
+    fetchNotes();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen flex flex-col">
+      <Toaster position="top-right"/>
+      <Navbar/>
+      <Dashboard className="flex flex-1"/>
     </div>
   );
 }
